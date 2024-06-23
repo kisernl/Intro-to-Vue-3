@@ -42,7 +42,7 @@ const app = Vue.createApp({
       return this.variants[this.selectedVariant].quantity;
     },
     sale() {
-      return this.brand + " " + this.product + " is on sale";
+      return this.brand + " " + this.product + " are on sale";
     },
   },
 });
